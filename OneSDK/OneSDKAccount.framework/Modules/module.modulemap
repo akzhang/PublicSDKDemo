@@ -1,0 +1,6 @@
+framework module OneSDKAccount {
+  umbrella header "OneSDKAccount.h"
+
+  export *
+  module * { export * }
+}
