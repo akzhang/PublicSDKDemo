@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PublicSDKDemo"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.1"
   spec.summary      = "A short description of PublicSDKDemo."
 
   # This description is used to generate tags and improve search results.
@@ -119,8 +119,8 @@ Pod::Spec.new do |spec|
 
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
-  spec.vendored_frameworks = "OneSDK/**/*.framework"
-  spec.resource = "OneSDK/**/*.bundle"
+  spec.vendored_frameworks = "PublicSDKDemo/OneSDK/**/*.framework"
+  spec.resource = "PublicSDKDemo/OneSDK/**/*.bundle"
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.xcconfig = { 'VALID_ARCHS' => 'arm64' }
